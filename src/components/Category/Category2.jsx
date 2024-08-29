@@ -28,10 +28,10 @@ function Category() {
                             />
                         </div>
                     </div>
-                    <img src={Image1} alt="" className='w-[350px] absolute top-[-15px] right-5' />
+                    <img src={Image1} alt="" className='w-[350px] absolute top-[-15px] right-5 lg:-right-6' />
                 </div>
 
-                <div className='py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-end'>
+                <div className='col-span-2 sm:col-span-1 py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-end'>
                     <div className='absolute top-7'>
                         <div className='mb-4'>
                             <p className='mb-[2px] text-white'>
@@ -53,7 +53,7 @@ function Category() {
                     <img src={Image2} alt="" className='w-[300px] h-[210px] absolute bottom-0 right-[-50px]' />
                 </div>
 
-                <div className='py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-end'>
+                <div className='col-span-2 sm:col-span-1 py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-end'>
                     <div className='absolute top-7'>
                         <div className='mb-4'>
                             <p className='mb-[2px] text-white'>
