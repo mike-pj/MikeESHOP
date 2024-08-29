@@ -250,7 +250,7 @@ const Navbar = ({ handleOrderPopup }) => {
                             <DarkMode />
                         </div>
                     </div>
-                    <div onClick={handleNav}>
+                    <div onClick={handleNav} className='lg:hidden'>
                         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} /> }
                     </div>
                     <div className={nav ? 'fixed left-0 top-0 text-xl w-[60%] h-full border-r border-r-gray-100 bg-gray-800 z-20 ease-in-out duration-700' : 'fixed left-[-100%]' }>
